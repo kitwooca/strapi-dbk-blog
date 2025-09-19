@@ -415,9 +415,7 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
   };
   attributes: {
     author: Schema.Attribute.Relation<'manyToOne', 'api::author.author'>;
-    blocks: Schema.Attribute.DynamicZone<
-      ['shared.media', 'shared.quote', 'shared.rich-text']
-    >;
+    blocks: Schema.Attribute.DynamicZone<['shared.media', 'shared.rich-text']>;
     categories: Schema.Attribute.Relation<
       'manyToMany',
       'api::category.category'
