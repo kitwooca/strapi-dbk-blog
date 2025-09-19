@@ -50,9 +50,17 @@
       "components": [
         "shared.media",
         "shared.quote",
-        "shared.rich-text",
-        "shared.slider"
+        "shared.rich-text"
       ]
+    },
+    "UpdatedDate": {
+      "type": "date",
+      "required": true
+    },
+    "FeaturedArticle": {
+      "type": "boolean",
+      "required": true,
+      "default": false
     }
   }
 }

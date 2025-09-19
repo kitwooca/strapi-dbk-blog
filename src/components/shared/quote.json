@@ -6,10 +6,13 @@
   },
   "options": {},
   "attributes": {
+    "name": {
+      "type": "string"
+    },
     "title": {
       "type": "string"
     },
-    "body": {
+    "quote": {
       "type": "text"
     }
   }

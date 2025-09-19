@@ -16,11 +16,13 @@
       "type": "text",
       "required": true
     },
-    "shareImage": {
+    "shareImage1200x630px": {
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

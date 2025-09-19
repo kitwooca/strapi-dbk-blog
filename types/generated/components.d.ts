@@ -18,7 +18,8 @@ export interface SharedQuote extends Struct.ComponentSchema {
     icon: 'indent';
   };
   attributes: {
-    body: Schema.Attribute.Text;
+    name: Schema.Attribute.String;
+    quote: Schema.Attribute.Text;
     title: Schema.Attribute.String;
   };
 }
@@ -46,7 +47,7 @@ export interface SharedSeo extends Struct.ComponentSchema {
   attributes: {
     metaDescription: Schema.Attribute.Text & Schema.Attribute.Required;
     metaTitle: Schema.Attribute.String & Schema.Attribute.Required;
-    shareImage: Schema.Attribute.Media<'images'>;
+    shareImage1200x630px: Schema.Attribute.Media<'images'>;
   };
 }
 
